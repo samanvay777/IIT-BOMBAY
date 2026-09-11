@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DEPTH — A Scroll Experiment</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="grain"></div>
+<div class="cursor"></div>
+<div class="cursor-ring"></div>
+
+<header class="nav">
+  <a class="logo" href="#top"><span>D</span>EPTH</a>
+  <div class="nav-meta"><span>SCROLL EXPERIMENT / 01</span><span>MOVE YOURSELF</span></div>
+  <a class="nav-link" href="#end">END ↘</a>
+</header>
+
+<main id="top">
+<section class="hero scene">
+  <div class="layer stars" data-speed=".12"></div>
+  <div class="layer rings" data-speed=".28"><i></i><i></i><i></i></div>
+  <div class="layer hero-shape" data-speed=".48"><div class="shape-core"></div></div>
+  <div class="layer hero-type" data-speed=".72">
+    <p class="eyebrow">A SMALL WEBSITE ABOUT GOING DEEPER</p>
+    <h1>SCROLL<br><em>DEEPER.</em></h1>
+    <p class="lead">A playful visual journey built entirely around motion, depth and the ancient human tradition of moving a rectangle with a finger.</p>
+  </div>
+  <div class="depth-meter"><span>DEPTH</span><strong>00</strong><i></i></div>
+  <div class="scroll-note">KEEP GOING <b>↓</b></div>
+</section>
+
+<section class="intro scene">
+  <div class="layer intro-grid" data-speed=".16"></div>
+  <div class="layer intro-word" data-speed=".32">MOTION</div>
+  <div class="intro-copy layer" data-speed=".62">
+    <p class="eyebrow">01 / THE RULE</p>
+    <h2>EVERYTHING<br>SHOULD <span>MOVE.</span></h2>
+    <p>Backgrounds drift. Foregrounds race. Shapes orbit. Text slips between layers. The point isn't to decorate the page. The movement is the page.</p>
+  </div>
+  <div class="floating-tag layer" data-speed=".85">YOU ARE HERE ↗</div>
+</section>
+
+<section class="tunnel scene">
+  <div class="tunnel-bg layer" data-speed=".08"></div>
+  <div class="tunnel-lines layer" data-speed=".24"></div>
+  <div class="tunnel-title layer" data-speed=".55">
+    <p class="eyebrow">02 / KEEP MOVING</p>
+    <h2>FIND<br><span>THE GAP.</span></h2>
+  </div>
+  <div class="door door-back layer" data-speed=".18"></div>
+  <div class="door door-mid layer" data-speed=".45"></div>
+  <div class="door door-front layer" data-speed=".82"><span>ENTER</span></div>
+</section>
+
+<section class="split scene">
+  <div class="split-left">
+    <p class="eyebrow">03 / PERSPECTIVE</p>
+    <h2>THE SAME<br>THING LOOKS<br><span>DIFFERENT</span><br>FROM HERE.</h2>
+  </div>
+  <div class="split-right">
+    <div class="tilt-card layer" data-speed=".3">
+      <div class="card-top"><span>FIELD NOTE 03</span><span>▲</span></div>
+      <div class="card-circle"></div>
+      <strong>SHIFT</strong>
+      <p>Distance changes the meaning of objects. Scroll changes the distance.</p>
+    </div>
+    <div class="mini-object layer" data-speed=".8"></div>
+  </div>
+</section>
+
+<section class="marquee-section scene">
+  <div class="marquee-track layer" data-speed=".5">
+    <span>SCROLL / MOVE / EXPLORE / REPEAT /</span>
+    <span>SCROLL / MOVE / EXPLORE / REPEAT /</span>
+  </div>
+  <div class="marquee-center">
+    <p class="eyebrow">04 / MOMENTUM</p>
+    <h2>DON'T<br><span>STOP.</span></h2>
+  </div>
+</section>
+
+<section class="depth-lab scene">
+  <div class="lab-copy layer" data-speed=".65">
+    <p class="eyebrow">05 / DEPTH LAB</p>
+    <h2>HOW DEEP<br>ARE YOU?</h2>
+    <p>Five layers. Different speeds. One continuous illusion.</p>
+  </div>
+  <div class="lab-stack layer" data-speed=".2">
+    <div class="stack s1">01</div>
+    <div class="stack s2">02</div>
+    <div class="stack s3">03</div>
+    <div class="stack s4">04</div>
+    <div class="stack s5">05</div>
+  </div>
+  <div class="lab-readout">
+    <span>PARALLAX</span><b>ACTIVE</b>
+  </div>
+</section>
+
+<section class="end scene" id="end">
+  <div class="end-bg layer" data-speed=".08"></div>
+  <div class="end-orb layer" data-speed=".32"><span></span></div>
+  <div class="end-copy layer" data-speed=".7">
+    <p class="eyebrow">06 / ARRIVAL</p>
+    <h2>YOU<br>MADE IT<br><span>THROUGH.</span></h2>
+    <a href="#top">GO AGAIN ↗</a>
+  </div>
+  <div class="end-coordinates">SCROLL 100% / DEPTH 06 / 2026</div>
+</section>
+</main>
+
+<footer>
+  <span>DEPTH / SCROLL EXPERIMENT</span>
+  <span>BUILT WITH HTML + CSS + JS</span>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
