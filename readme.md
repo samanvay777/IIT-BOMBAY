@@ -1,21 +1,19 @@
 # My Project
 
-A short description of the project.
+Techfest IIT Bombay Project
 
 ## Features
 
-- Feature 1
-- Feature 2
-- Feature 3
+- web development
 
 ## Installation
 
-Describe how to install or run the project.
+simple install
 
 ## Usage
 
-Describe how to use the project.
+project
 
 ## Author
 
-Your Name# IIT-BOMBAY
+Samanvay Singh IIT-BOMBAY
