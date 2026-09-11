@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#050505" />
+  <title>TECHFEST | IIT Bombay — Beyond The Visible</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="loader">
+    <div class="loader-mark">TF<span>30</span></div>
+    <div class="loader-line"><i></i></div>
+    <p>INITIALISING THE FUTURE</p>
+  </div>
+
+  <div class="noise"></div>
+  <div class="cursor"></div>
+  <div class="cursor-ring"></div>
+
+  <header class="nav">
+    <a href="#top" class="brand" aria-label="Techfest IIT Bombay home">
+      <span class="brand-tf">TF</span>
+      <span>TECHFEST<br><small>IIT BOMBAY</small></span>
+    </a>
+    <nav>
+      <a href="#world">WORLD</a>
+      <a href="#events">EVENTS</a>
+      <a href="#experience">EXPERIENCE</a>
+      <a href="#legacy">LEGACY</a>
+    </nav>
+    <div class="edition">30<sup>TH</sup> EDITION</div>
+    <button class="menu" aria-label="Open menu"><span></span><span></span></button>
+  </header>
+
+  <main id="top">
+    <section class="hero" id="world">
+      <canvas id="space"></canvas>
+      <div class="hero-vignette"></div>
+      <div class="hero-copy">
+        <p class="eyebrow">IIT BOMBAY PRESENTS / 30 YEARS OF TOMORROW</p>
+        <h1><span>TECH</span><em>FEST</em></h1>
+        <div class="hero-sub">
+          <span>SCIENCE</span><b>×</b><span>TECHNOLOGY</span><b>×</b><span>IMPACT</span>
+        </div>
+        <p class="hero-intro">A collision of ideas, machines, people and impossible questions. Enter the space where curiosity becomes something you can touch.</p>
+        <a class="cta magnetic" href="#events"><span>ENTER TECHFEST</span><i>↗</i></a>
+      </div>
+
+      <div class="hero-hud hud-a"><span>SYS 30.00</span><span>ONLINE</span></div>
+      <div class="hero-hud hud-b"><span>19°07'N</span><span>72°51'E</span></div>
+      <div class="scroll-cue"><span>SCROLL TO EXPLORE</span><i></i></div>
+      <div class="hero-counter"><strong>01</strong><span>/ 05</span></div>
+    </section>
+
+    <section class="portal">
+      <div class="portal-copy reveal">
+        <p class="kicker">THE IDEA</p>
+        <h2>DON'T JUST<br><span>WATCH THE FUTURE.</span></h2>
+        <p>Techfest is India's largest science and technology festival, built around competitions, learning, exhibitions, talks and experiences that make the future feel immediate.</p>
+      </div>
+      <div class="orbital-stage reveal">
+        <div class="orbit orbit-1"></div>
+        <div class="orbit orbit-2"></div>
+        <div class="orbit orbit-3"></div>
+        <div class="portal-core"><span>TF</span><small>30</small></div>
+        <div class="orbit-label label-1">IDEATE</div>
+        <div class="orbit-label label-2">BUILD</div>
+        <div class="orbit-label label-3">IMPACT</div>
+      </div>
+    </section>
+
+    <section class="stats">
+      <article><strong data-count="180000">0</strong><span>+ FOOTFALL</span><p>Across three days</p></article>
+      <article><strong data-count="300">0</strong><span>+ EVENTS</span><p>Competitions, talks & experiences</p></article>
+      <article><strong data-count="30">0</strong><span>TH EDITION</span><p>Three decades of Techfest</p></article>
+      <article><strong data-count="25">0</strong><span>+ YEARS</span><p>Of building what comes next</p></article>
+    </section>
+
+    <section class="events" id="events">
+      <div class="section-head reveal">
+        <div>
+          <p class="kicker">SELECT YOUR MISSION</p>
+          <h2>ENTER<br><span>THE ARENA.</span></h2>
+        </div>
+        <p>Hover. Move. Click. The interface is supposed to react. Humanity has finally invented a website that refuses to sit still.</p>
+      </div>
+
+      <div class="event-grid">
+        <article class="event-card event-red reveal" data-index="01">
+          <div class="card-visual"><div class="robot-head"><i></i><b></b></div><div class="radar"></div></div>
+          <div class="card-info"><small>01 / COMPETITION</small><h3>ROBOWARS</h3><p>Machines collide. Engineers improvise.</p><a href="https://techfest.org/" target="_blank" rel="noopener">EXPLORE ↗</a></div>
+        </article>
+
+        <article class="event-card reveal" data-index="02">
+          <div class="card-visual"><div class="code-window"><span>01</span><b>&lt;BUILD /&gt;</b><i>01101010</i><em>01001101</em></div></div>
+          <div class="card-info"><small>02 / COMPETITION</small><h3>CODE & AI</h3><p>Logic under pressure. Intelligence in motion.</p><a href="https://techfest.org/" target="_blank" rel="noopener">EXPLORE ↗</a></div>
+        </article>
+
+        <article class="event-card reveal" data-index="03">
+          <div class="card-visual"><div class="workshop"><span>LEARN</span><b>+</b><i>MAKE</i></div></div>
+          <div class="card-info"><small>03 / LEARNING</small><h3>WORKSHOPS</h3><p>Turn concepts into things that work.</p><a href="https://techfest.org/" target="_blank" rel="noopener">EXPLORE ↗</a></div>
+        </article>
+
+        <article class="event-card event-wide reveal" data-index="04">
+          <div class="card-visual"><div class="expo"><span>EXHIBITION</span><b></b><i></i></div></div>
+          <div class="card-info"><small>04 / EXPERIENCE</small><h3>EXHIBITIONS</h3><p>See technologies before they become ordinary.</p><a href="https://techfest.org/" target="_blank" rel="noopener">EXPLORE ↗</a></div>
+        </article>
+
+        <article class="event-card reveal" data-index="05">
+          <div class="card-visual"><div class="stage"><span></span><span></span><span></span><b>LIVE</b></div></div>
+          <div class="card-info"><small>05 / EXPERIENCE</small><h3>TECHNOHOLIX</h3><p>Technology, performance and spectacle.</p><a href="https://techfest.org/" target="_blank" rel="noopener">EXPLORE ↗</a></div>
+        </article>
+
+        <article class="event-card reveal" data-index="06">
+          <div class="card-visual"><div class="lecture"><b>?</b><span>IDEAS<br>MOVE<br>WORLDS</span></div></div>
+          <div class="card-info"><small>06 / LEARNING</small><h3>LECTURES</h3><p>Big questions. Uncomfortable answers.</p><a href="https://techfest.org/" target="_blank" rel="noopener">EXPLORE ↗</a></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="experience" id="experience">
+      <div class="experience-pin">
+        <p class="kicker">THE EXPERIENCE</p>
+        <h2>THREE MODES.<br><span>ONE FUTURE.</span></h2>
+      </div>
+      <div class="experience-track">
+        <article><span>01</span><h3>BUILD</h3><p>Compete, prototype, code, engineer and solve problems that don't come with an instruction manual.</p></article>
+        <article><span>02</span><h3>LEARN</h3><p>Meet researchers, creators and experts. Leave with more questions than you arrived with.</p></article>
+        <article><span>03</span><h3>EXPERIENCE</h3><p>Robots, drones, performances, exhibitions and technology turned all the way up.</p></article>
+      </div>
+    </section>
+
+    <section class="countdown">
+      <div class="countdown-bg">30</div>
+      <div class="countdown-content">
+        <p class="kicker">THE NEXT CHAPTER</p>
+        <h2>THE CLOCK<br><span>IS RUNNING.</span></h2>
+        <div class="timer" aria-label="Countdown">
+          <div><strong id="days">00</strong><small>DAYS</small></div>
+          <i>:</i>
+          <div><strong id="hours">00</strong><small>HOURS</small></div>
+          <i>:</i>
+          <div><strong id="minutes">00</strong><small>MIN</small></div>
+          <i>:</i>
+          <div><strong id="seconds">00</strong><small>SEC</small></div>
+        </div>
+        <p class="date-note">TECHFEST IIT BOMBAY / 2026</p>
+      </div>
+    </section>
+
+    <section class="legacy" id="legacy">
+      <div class="legacy-title reveal">
+        <p class="kicker">THEN → NOW</p>
+        <h2>A LEGACY OF<br><span>FIRSTS.</span></h2>
+      </div>
+      <div class="timeline">
+        <article class="timeline-item reveal"><span>2002</span><div><small>THE BEGINNING</small><h3>TECHFEST TROPHY</h3><p>India's first Micromouse robotics competition enters the story.</p></div></article>
+        <article class="timeline-item reveal"><span>2015—17</span><div><small>PEOPLE WHO SHIFTED THE ROOM</small><h3>KALAM / PRANAB / SOPHIA</h3><p>Visionaries, leaders and a humanoid icon meet the Techfest stage.</p></div></article>
+        <article class="timeline-item reveal"><span>2020—22</span><div><small>TECH IN THE WILD</small><h3>5G / DRONES / RACING</h3><p>India's first consumer 5G test, drone racing and a first drone show.</p></div></article>
+        <article class="timeline-item reveal"><span>2025</span><div><small>THE MACHINE AGE</small><h3>HUMANOIDS / 1,500+ DRONES</h3><p>The Global Humanoid Conclave and a massive drone-based production push the spectacle further.</p></div></article>
+      </div>
+    </section>
+
+    <section class="final">
+      <canvas id="final-space"></canvas>
+      <div class="final-copy reveal">
+        <p class="kicker">IIT BOMBAY / MUMBAI / INDIA</p>
+        <h2>SEE YOU<br><span>AT TECHFEST.</span></h2>
+        <a class="cta magnetic" href="https://techfest.org/" target="_blank" rel="noopener"><span>VISIT TECHFEST.ORG</span><i>↗</i></a>
+      </div>
+      <div class="final-mark">TF<small>30</small></div>
+    </section>
+  </main>
+
+  <footer>
+    <div><strong>TECHFEST</strong><span>IIT BOMBAY</span></div>
+    <p>SCIENCE / TECHNOLOGY / IMPACT</p>
+    <a href="#top">BACK TO TOP ↑</a>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
